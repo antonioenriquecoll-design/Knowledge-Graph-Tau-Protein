@@ -6,7 +6,7 @@ Repositorio dedicado al modelado, integración y explotación semántica de dato
 * `/practica.ttl`: Grafo de conocimiento en formato Turtle (fuente).
 * `/practica.rdf`: Dataset convertido a RDF/XML para interoperabilidad.
 * `/consultas.R`: Script de integración y consulta SPARQL desde R.
-* `/ESD_Practica_Tau_AntonioColl.pdf`: Documentación técnica completa.
+* `/ESD_Practica_Tau_AntonioEnriqueCollMeseguer.pdf`: Documentación técnica completa.
 
 ## Stack Tecnológico
 * **Ontologías:** UniProtKB, Disease Ontology (DOID), Gene Ontology (GO).
