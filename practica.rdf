@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:ns0="https://w3id.org/biolink/vocab/">
+
+  <rdf:Description rdf:about="http://purl.uniprot.org/uniprot/P10636">
+    <rdf:type rdf:resource="https://w3id.org/biolink/vocab/Protein"/>
+    <rdfs:label>Tau Protein</rdfs:label>
+    <ns0:has_gene rdf:resource="http://identifiers.org/ncbigene:4137"/>
+    <ns0:category rdf:resource="https://w3id.org/biolink/vocab/Protein"/>
+    <ns0:in_taxon rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    <ns0:active_in>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005737">
+        <rdfs:label>Cytoplasm</rdfs:label>
+      </rdf:Description>
+    </ns0:active_in>
+
+    <ns0:active_in>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005856">
+        <rdfs:label>Cytoskeleton</rdfs:label>
+      </rdf:Description>
+    </ns0:active_in>
+
+    <ns0:active_in>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030424">
+        <rdfs:label>Axon</rdfs:label>
+      </rdf:Description>
+    </ns0:active_in>
+
+    <ns0:active_in rdf:resource="http://purl.obolibrary.org/obo/GO_0030425"/>
+    <ns0:active_in rdf:resource="http://purl.obolibrary.org/obo/GO_0005829"/>
+    <ns0:active_in rdf:resource="http://purl.obolibrary.org/obo/GO_0043025"/>
+    <ns0:active_in rdf:resource="http://purl.obolibrary.org/obo/GO_0045202"/>
+    <ns0:enables>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0003723">
+        <rdfs:label>RNA binding</rdfs:label>
+      </rdf:Description>
+    </ns0:enables>
+
+    <ns0:enables rdf:resource="http://purl.obolibrary.org/obo/GO_0003677"/>
+    <ns0:enables>
+      <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008017">
+        <rdfs:label>Microtubule binding</rdfs:label>
+      </rdf:Description>
+    </ns0:enables>
+
+    <ns0:enables rdf:resource="http://purl.obolibrary.org/obo/GO_0001540"/>
+    <ns0:enables rdf:resource="http://purl.obolibrary.org/obo/GO_0007409"/>
+    <ns0:enables rdf:resource="http://purl.obolibrary.org/obo/GO_0006836"/>
+    <ns0:enables rdf:resource="http://purl.obolibrary.org/obo/GO_0007613"/>
+    <ns0:enables rdf:resource="http://purl.obolibrary.org/obo/GO_0050808"/>
+    <ns0:enables rdf:resource="http://purl.obolibrary.org/obo/GO_0043621"/>
+    <ns0:enables rdf:resource="http://purl.obolibrary.org/obo/GO_0007018"/>
+    <ns0:causes_condition>
+      <ns0:Disease rdf:about="http://purl.obolibrary.org/obo/DOID_10652">
+        <rdfs:label>Alzheimer disease</rdfs:label>
+      </ns0:Disease>
+    </ns0:causes_condition>
+
+    <ns0:causes_condition>
+      <ns0:Disease rdf:about="http://purl.obolibrary.org/obo/DOID_9255">
+        <rdfs:label>Frontotemporal dementia</rdfs:label>
+      </ns0:Disease>
+    </ns0:causes_condition>
+
+    <ns0:causes_condition>
+      <ns0:Disease rdf:about="http://purl.obolibrary.org/obo/DOID_11970">
+        <rdfs:label>Pick disease</rdfs:label>
+      </ns0:Disease>
+    </ns0:causes_condition>
+
+    <ns0:causes_condition>
+      <ns0:Disease rdf:about="http://purl.obolibrary.org/obo/DOID_678">
+        <rdfs:label>Parkinsonism</rdfs:label>
+      </ns0:Disease>
+    </ns0:causes_condition>
+
+  </rdf:Description>
+
+</rdf:RDF>
