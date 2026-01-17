@@ -49,7 +49,7 @@ print(res4$results)
 # ------------------------------------------------------------------------------
 # CONSULTA 5: Estadísticas del grafo (Count)
 # ------------------------------------------------------------------------------
-q5 <- paste(prefixes, "SELECT (COUNT(?p) AS ?total_relaciones) WHERE { ?s ?p ?o . }")
+q5 <- paste(prefixes, "SELECT (COUNT(?p) AS ?total_relaciones) WHERE { up:P10636 ?p ?o . }")
 print("--- Consulta 5: Conteo total de relaciones ---")
 res5 <- SPARQL(endpoint, q5)
 print(res5$results)
