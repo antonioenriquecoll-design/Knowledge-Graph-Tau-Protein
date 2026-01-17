@@ -11,6 +11,7 @@ prefixes <- "
 PREFIX biolink: <https://w3id.org/biolink/vocab/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX up: <http://purl.uniprot.org/uniprot/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
 "
 
 # ------------------------------------------------------------------------------
